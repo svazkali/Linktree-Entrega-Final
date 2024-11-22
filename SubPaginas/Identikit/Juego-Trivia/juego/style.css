@@ -1,0 +1,52 @@
+/* Ensure the body takes up the full viewport height and uses Flexbox for centering */
+body {
+    background-color: #0A71A6;
+    margin: 0;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Remove unnecessary alignment properties from headings */
+h1, h2, h3 {
+    color: #ffffff;
+    margin: 10px; /* Optional: Adjust spacing between elements */
+}
+
+/* Style the button and remove default styling from the <a> tag */
+.btn-comenzar {
+    margin: 20px;
+    background-color: #007BFF; /* Button background color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-comenzar a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.btn-comenzar:hover {
+    background-color: #0056b3; /* Button hover color */
+}
+
+/* General image styling */
+.dto, .gif {
+	width: 400px;
+    display: block;
+    margin: 20px auto; /* Center the images horizontally */
+}
+
+img {
+	width: 600px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
