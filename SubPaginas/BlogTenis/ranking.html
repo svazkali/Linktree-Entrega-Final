@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Set Match</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Game Set Match</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="noticias.html">Noticias</a></li>
+                    <li><a href="jugadores.html">Jugadores</a></li>
+                    <li><a href="ranking.html">Ranking</a></li>
+                    <li><a href="torneos.html">Torneos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="intro" style="padding-top: 30px;">
+        <h2>Ranking de Posiciones</h2>
+        <p>Ve el ranking actualizado a la fecha de los mejores jugadores del Ranking ATP.</p>
+    </section>
+
+    <div class="ranking-container">
+        <table class="ranking-table">
+            <thead>
+                <tr>
+                    <th>Ranking Jugador</th>
+                    <th>País</th>
+                    <th>Edad</th>
+                    <th>Puntos Oficiales</th>
+                    <th>+/-</th>
+                    <th>Torneos Jugados</th>
+                    <th>Pts A Perder</th>
+                    <th>Siguiente Mejor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="rank">1</span> <img src="https://www.atptour.com/-/media/alias/player-headshot/s0ag" style="height: 40px;" alt="Sinner"><br> Jannik Sinner</td>
+                    <td><img src="https://s1.significados.com/foto/bandera-italia.jpg?class=article" style="height: 20px;"></td>
+                    <td>23</td>
+                    <td><strong>11,420</strong></td>
+                    <td class="change negative">-500</td>
+                    <td>17</td>
+                    <td>90</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td><span class="rank">2</span> <img src="https://www.atptour.com/-/media/alias/player-headshot/a0e2" style="height: 40px;" alt="Alcaraz"><br> Carlos Alcaraz</td>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/1024px-Bandera_de_Espa%C3%B1a.svg.png" style="height: 20px;"></td>
+                    <td>21</td>
+                    <td><strong>7,120</strong></td>
+                    <td class="change">-</td>
+                    <td>18</td>
+                    <td>10</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td><span class="rank">3</span> <img src="https://www.atptour.com/-/media/alias/player-headshot/z355" style="height: 40px;" alt="Zverev"><br> Alexander Zverev</td>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/255px-Flag_of_Germany.svg.png" style="height: 20px;"></td>
+                    <td>27</td>
+                    <td><strong>6,805</strong></td>
+                    <td class="change positive">+10</td>
+                    <td>21</td>
+                    <td>90</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td><span class="rank">4</span> <img src="https://www.atptour.com/-/media/alias/player-headshot/d643" style="height: 40px;" alt="Rublev"><br> Novak Djokovic</td>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/800px-Flag_of_Serbia.svg.png" style="height: 20px;"></td>
+                    <td>37</td>
+                    <td><strong>6,210</strong></td>
+                    <td class="change negative">-10</td>
+                    <td>19</td>
+                    <td>10</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td><span class="rank">5</span> <img src="https://www.atptour.com/-/media/alias/player-headshot/mm58" style="height: 40px;" alt="Medvedev"><br> Daniil Medvedev</td>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Russia.svg/255px-Flag_of_Russia.svg.png" style="height: 20px;"></td>
+                    <td>25</td>
+                    <td><strong>5,920</strong></td>
+                    <td class="change positive">+10</td>
+                    <td>20</td>
+                    <td>10</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td><span class="rank">6</span> <img src="https://www.atptour.com/-/media/alias/player-headshot/fb98" style="height: 40px;" alt="Medvedev"><br> Taylor Fritz</td>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/255px-Flag_of_the_United_States.svg.png" style="height: 20px;"></td>
+                    <td>25</td>
+                    <td><strong>5,650</strong></td>
+                    <td class="change positive">+10</td>
+                    <td>22</td>
+                    <td>0</td>
+                    <td>-</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <footer>
+        <form>
+            <div class="emal">
+              <h2>Recibe las últimas noticias</h2>
+            </div>
+          
+            <div class="email" >
+              <input type="text" placeholder="Tu correo electronico" name="mail" required>
+            </div>
+          
+            <div class="email">
+              <input type="submit" value="Suscribete Ahora!">
+            </div>
+          </form>
+
+        <div class="socials">
+            <h2>Encuentranos en</h2>
+            <a href="https://www.instagram.com/santii_vaziuta" target="_blank">
+                <img src="img/ig.svg" class="logo">
+            </a>
+            <a href="https://ar.linkedin.com/in/santinovaziuta" target="_blank">
+                <img src="img/ldin.svg" class="logo">
+            </a>
+            <a href="https://www.youtube.com/santinovaziuta" target="_blank">
+                <img src="img/ytb.svg" class="logo">
+            </a>
+            <a href="https://www.facebook.com/santii-vaziuta" target="_blank">
+                <img src="img/fb.svg" class="logo">
+            </a>
+        </div>
+        <div class="container">
+            <p>&copy; <b>2024 Blog de Tenis. Todos los derechos reservados.</b></p>
+        </div>
+    </footer>
+</body>
+</html>
