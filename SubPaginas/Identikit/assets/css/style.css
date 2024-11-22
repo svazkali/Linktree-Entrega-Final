@@ -1,0 +1,111 @@
+body {
+	background-color: #E0DDDD;
+	margin: 0;
+}
+
+header {
+    background-color: #0096ff;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 20px;
+    margin-bottom: -25px;
+}
+
+.menu li a:hover {
+    background-color: #FBFE10;
+    transition: 500ms;
+    color: #0096ff;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+}
+
+.menu li {
+    margin: 0;
+}
+
+.menu a {
+    color: #FBFE10;
+    text-decoration: none;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+
+.santino {
+	background-color: #0096ff;
+	text-align: center;
+	padding:20px;
+	font-family: sans-serif;
+	color: #FBFE10;
+}
+
+.edad {
+	background-color: #FBFE10;
+	text-align: center;
+	padding: 20px;
+	font-family: sans-serif;
+	color: #0096ff;
+}
+
+.gustos {
+	background-color: #0096ff;
+	text-align: center;
+	padding:20px;
+	font-family: sans-serif;
+	color: #FBFE10;
+}
+
+p {
+	color: #000000;
+}
+
+.tabla {
+	width: 500px;
+}
+
+.cancha-favorita {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.bombonera {
+	width: 900px;
+	height: 600px;
+	border-radius: 5%;
+}
+
+h3 {
+	align-content: center;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.galeria {
+	align-content: center;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.calendariof1 {
+	align-content: center;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.triviaUADE {
+	align-content: center;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
